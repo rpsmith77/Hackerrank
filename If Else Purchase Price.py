@@ -10,11 +10,11 @@
 #   You still owe nn.nn or Thank you, your change is nn.nn
 
 #Get the price of the first item
-price1 = float(input("Price of Item 1: "))
+price1 = float(input())
 #Get the price of the second item
-price2 = float(input("Price of Item 2: "))
+price2 = float(input())
 #Get the payment amount
-payment = float(input("Total payment: "))
+payment = float(input())
 difference = payment - price1 - price2
 # Determine if customer still owes
 if(difference < 0):
