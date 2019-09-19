@@ -10,10 +10,12 @@
 if __name__ == '__main__':
     n = int(input())
     arr = map(int, input().split())
-
+    
+#sorts and reverses order of array
     sortArr = sorted(arr)
     sortArr.reverse()
-
+    
+#checks for second largest number
     i = 1
     while i <= n:
         if sortArr[i] < sortArr[i - 1]:
